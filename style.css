@@ -1,0 +1,48 @@
+
+.nav{
+    list-style-type: none;
+    background-color: #1e201f;
+    text-align: center;
+    height: 80px;
+}
+.nav li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(214, 214, 214);
+    
+}
+.btn1 {
+    border-radius: 22px;
+    width: 120px;
+    opacity: 0.6;
+    cursor: not-allowed;
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+}
+.btn1:hover{
+    opacity: 1;
+}
+.picbody{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(270deg, rgba(211, 66, 66, 0.546875) 0.01%, #D34242 0.02%, rgba(114, 160, 130, 0) 100%), #E9A014;
+}
+.picbody{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.textbody{
+    height: 100%;
+    width: 100%;
+    color: #000;
+    clear: both;
+}
+
