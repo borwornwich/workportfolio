@@ -54,7 +54,7 @@
 .bg1{
     color: rgb(255, 255, 255);
     background-color: #282424;
-    height: 1000px;
+    height: 1500px;
     font-size: 20px;
     text-align: center;
     padding-top: 30px;
@@ -64,7 +64,7 @@
     padding: 10px;
     display: inline-block;
     border-radius: 25px;
-    margin: 5%;
+    margin: 7%;
 }
 .box1{
     padding-top: 15px;
@@ -80,6 +80,37 @@ li{
     color: rgb(214, 214, 214); 
     font-size: 16px;
 }
+.bordertxt2{
+    border: solid 5px #E9A014;
+    padding: 45px;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 7%;
+}
+.boxABOUT1{
+    padding-top: 15px;
+    float: left;
+}
+.bordertxt3{
+    border: solid 5px #E9A014;
+    padding: 45px;
+    display: inline-block;
+    border-radius: 25px;
+    margin: 7%;
+}
+.boxACHIEVEMENT{
+    padding-top: 15px;
+    float: left;
+    text-align: justify;
+}
+.ACHIEVEMENTpic{
+    object-position: center;
+}
+
+
+
+
+
 /* ทดสอบ */
 .contact{
     position: relative;
