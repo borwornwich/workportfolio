@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Latest compiled and minified CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-     <!-- Latest compiled JavaScript -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-lg-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="javascript:void(0)">
-                <img src="data:image/png;base64,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"width="45px" height="45px"
-                    style="width:40px" alt="">
+                <img src="data:image/png;base64,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"
+                    width="45px" height="45px" style="width:40px" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -56,10 +58,11 @@
     </ul> -->
     <div class="picbody">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12"><img src="6439010051.jpg"class="rounded-circle" alt="Cinque Terre"></div>
+            <div class="col-lg-4 col-md-6 col-sm-12"><img src="6439010051.jpg" class="rounded-circle"
+                    alt="Cinque Terre"></div>
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <p id="nametxt">Mr.Borwornwich Pimason <br>
-                (เฟม) IT 5101 เทคโนโลยีโปลิเทคนิคลานนา</p>
+                    (เฟม) IT 5101 เทคโนโลยีโปลิเทคนิคลานนา</p>
             </div>
         </div>
     </div>
@@ -79,22 +82,25 @@
                         </div>
                     </div> -->
 
-                    
+
                     <div class="bordertxt">CONTACT
                         <br>
                         <div class="box1">
-                            <li><img src="https://cdn4.iconfinder.com/data/icons/social-media-2097/94/phone-512.png"width="45px" height="45px"> </li>
+                            <li><img src="https://cdn4.iconfinder.com/data/icons/social-media-2097/94/phone-512.png"
+                                    width="45px" height="45px"> </li>
                             <li>095-6827821</li>
                         </div>
                         <div class="box1">
-                            <li><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"width="45px" height="45px"> </li>
+                            <li><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png"
+                                    width="45px" height="45px"> </li>
                             <li> stu6439010051@lannapoly.ac.th</li>
                         </div>
                         <div class="box1">
-                            <li><img src="https://cdn-icons-png.flaticon.com/512/235/235861.png"width="45px" height="45px"></li>
+                            <li><img src="https://cdn-icons-png.flaticon.com/512/235/235861.png" width="45px"
+                                    height="45px"></li>
                             <li>เมืองเชียงใหม่ 50300</li>
                         </div>
-                    </div>   
+                    </div>
 
                     <div class="bordertxt2">ABOUT ME
                         <br>
@@ -115,29 +121,32 @@
                             <li id="ba1">Driver’s license</li>
                             <li id="ba1">Motorcycle</li>
                         </div>
-                    </div>   
+                    </div>
 
                     <div class="bordertxt3">ACHIEVEMENT
                         <br>
                         <!-- &nbsp; -->
                         <div class="ACHIEVEMENTpic">
-                            <p>- ได้เกียรติบัตรจัดสวนถาดระดับภาคเหนือ ครั้งที่ 67 ได้เหรียญทอง 2017 ที่ จังหวัดกำแพงเพชร</p>
+                            <p>- ได้เกียรติบัตรจัดสวนถาดระดับภาคเหนือ ครั้งที่ 67 ได้เหรียญทอง 2017 ที่ จังหวัดกำแพงเพชร
+                            </p>
                             <p>- ได้เกียรติบัตร ไม่ขาด ไม่ลา ไม่มาสาย 4ปี วิทยาลัยโปลิเทคนิคลานนา</p>
                             <div class="ach">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <img src="https://i.ytimg.com/vi/TIwFQvenm3I/hqdefault.jpg "width="120px" height="120px"class="rounded-circle" alt="Cinque Terre">
+                                        <img src="https://i.ytimg.com/vi/TIwFQvenm3I/hqdefault.jpg " width="120px"
+                                            height="120px" class="rounded-circle" alt="Cinque Terre">
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <img src="https://www.cia-ice.com/wp-content/uploads/2020/10/LANNAPOLY-1013x1024.png "width="130px" height="130px"class="rounded-circle" alt="Cinque Terre">
+                                        <img src="https://www.cia-ice.com/wp-content/uploads/2020/10/LANNAPOLY-1013x1024.png "
+                                            width="130px" height="130px" class="rounded-circle" alt="Cinque Terre">
                                     </div>
-                                    
+
                                 </div>
                             </div>
-                            
+
                         </div>
-                        
-                    </div> 
+
+                    </div>
 
                 </div>
             </div>
@@ -149,13 +158,17 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 ">
-                                <img src="atttect.jpg"width="160px"height="160px"class="rounded-circle">
+                                <div class="card">
+                                    <img src="atttect.jpg" width="160px" height="160px" class="rounded-circle">
+                                </div>
                             </div>
                             <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="cbody">
-                                    <li><p id="Ptxt">ร้านแอทเทค คอมพลีท ทำเกี่ยวกับการซ่อมคอม/โน๊ตบุ๊ค 
-                                        ขายอุปกรณ์คอมพิวเตอร์ ซ่อมอุปกรณ์คอม/โน๊ตบุ๊ค 
-                                        เริ่มฝึกงาน 1 กันยายน - 31 ตุลาคม 63</p>  </li>
+                                    <li>
+                                        <p id="Ptxt">ร้านแอทเทค คอมพลีท ทำเกี่ยวกับการซ่อมคอม/โน๊ตบุ๊ค
+                                            ขายอุปกรณ์คอมพิวเตอร์ ซ่อมอุปกรณ์คอม/โน๊ตบุ๊ค
+                                            เริ่มฝึกงาน 1 กันยายน - 31 ตุลาคม 63</p>
+                                    </li>
                                 </div>
                             </div>
                         </div>
@@ -165,13 +178,19 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 ">
-                                <img src="https://hpc1.anamai.moph.go.th/assets/app/images/logo.png"width="160px"height="180px">
+                                <div class="card">
+                                    <img src="https://hpc1.anamai.moph.go.th/assets/app/images/logo.png" width="160px"
+                                        height="180px">
+                                </div>
                             </div>
                             <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="cbody">
-                                    <li><p id="Ptxt">ศูนย์อนามัยที่ 1 เชียงใหม่ ทำเกี่ยวกับ IT Support  เริ่มฝึกงาน 1 กรกฏาคม - 31 สิงหาคม 63
+                                    <li>
+                                        <p id="Ptxt">ศูนย์อนามัยที่ 1 เชียงใหม่ ทำเกี่ยวกับ IT Support เริ่มฝึกงาน 1
+                                            กรกฏาคม - 31 สิงหาคม 63
 
-                                    </p>  </li>
+                                        </p>
+                                    </li>
                                 </div>
                             </div>
                         </div>
@@ -185,12 +204,17 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 ">
-                                <img src="https://sites.google.com/site/thanyathipchainon/_/rsrc/1549937500650/mathymsuksa/Unknown.jpg"width="130px"height="130px">
+                                <div class="card">
+                                    <img src="https://sites.google.com/site/thanyathipchainon/_/rsrc/1549937500650/mathymsuksa/Unknown.jpg"
+                                        width="130px" height="130px">
+                                </div>
                             </div>
                             <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="cbody">
-                                    <li><p id="Ptxt">โรงเรียนพงษ์พิกุลเชียงใหม่
-                                        2005-2014</p>  </li>
+                                    <li>
+                                        <p id="Ptxt">โรงเรียนพงษ์พิกุลเชียงใหม่
+                                            2005-2014</p>
+                                    </li>
                                 </div>
                             </div>
                         </div>
@@ -200,14 +224,19 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 ">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Navamindarajudis_Phayap_School_Logo.png"width="130px"height="130px">
+                                <div class="card">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Navamindarajudis_Phayap_School_Logo.png"
+                                        width="130px" height="130px">
+                                </div>
                             </div>
                             <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="cbody">
-                                    <li><p id="Ptxt">โรงเรียนนวมินทราชูทิศ พายัพ เชียงใหม่
-                                        2015-2017
+                                    <li>
+                                        <p id="Ptxt">โรงเรียนนวมินทราชูทิศ พายัพ เชียงใหม่
+                                            2015-2017
 
-                                    </p>  </li>
+                                        </p>
+                                    </li>
                                 </div>
                             </div>
                         </div>
@@ -217,12 +246,18 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12 ">
-                                <img src="https://www.cia-ice.com/wp-content/uploads/2020/10/LANNAPOLY-1013x1024.png"width="130px"height="130px">
+                                <div class="card">
+                                    <img src="https://www.cia-ice.com/wp-content/uploads/2020/10/LANNAPOLY-1013x1024.png"
+                                        width="130px" height="130px">
+                                </div>
                             </div>
                             <div class="col-lg-8 col-md-12 col-sm-12">
                                 <div class="cbody">
-                                    <li><p id="Ptxt">วิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา เชียงใหม่  สาขาเทคโนโลยีสารสนเทศ 2018 - 2023
-                                    </p>  </li>
+                                    <li>
+                                        <p id="Ptxt">วิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา เชียงใหม่ สาขาเทคโนโลยีสารสนเทศ
+                                            2018 - 2023
+                                        </p>
+                                    </li>
                                 </div>
                             </div>
                         </div>
@@ -237,7 +272,10 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="cbody">
-                                    <li><p id="Ptxt">สามารถซ่อมคอม ประกอบคอม เขียนเว็บเบื้องต้นด้วยภาษา HTML,CSS,PHP,JAVA,kotlin  เขียนโปแกรมเบื้องต้นด้วยภาษา C++ , Python</p>  </li>
+                                    <li>
+                                        <p id="Ptxt">สามารถซ่อมคอม ประกอบคอม เขียนเว็บเบื้องต้นด้วยภาษา
+                                            HTML,CSS,PHP,JAVA,kotlin เขียนโปแกรมเบื้องต้นด้วยภาษา C++ , Python</p>
+                                    </li>
                                 </div>
                             </div>
                         </div>
@@ -245,14 +283,14 @@
                 </div>
 
             </div>
-                
-            </div>
+
         </div>
     </div>
+    </div>
 
-    
 
-<!-- <div class="container">
+
+    <!-- <div class="container">
     <div class="textbody">
         <div class="row">
             <div class="col-xs-3 col-sm-6 col-lg-4">
@@ -265,6 +303,7 @@
         </div>
     </div>
 </div> -->
-   
+
 </body>
+
 </html>
