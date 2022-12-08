@@ -196,7 +196,10 @@ video{
 .text-uppercase{
     font-size: clamp(5px,2.5vw,16px);
 }
-
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 
 
 
